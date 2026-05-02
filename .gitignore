@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# pnpm
+.pnpm-store/
+.pnpm/
+
+# logs
+*.log
+
+# env
+.env
+.env.*
+
+# build
+dist/
+build/
+.next/
+out/
+ 
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode/
+.idea/

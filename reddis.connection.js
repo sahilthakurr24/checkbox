@@ -1,0 +1,13 @@
+import {Redis} from "ioredis";
+
+function createRedisConnection(){
+    return new Redis({
+        host : process.env.REDIS_HOST ?? 'localhost',
+        port : Number(process.env.REDIS_PORT ?? 6379)
+    })
+};
+
+export const redis = createRedisConnection();
+
+export const publisher = createRedisConnection();
+export const subscriber = createRedisConnection();
