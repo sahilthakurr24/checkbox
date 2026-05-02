@@ -77,11 +77,19 @@ pnpm install
 
 ### 3️⃣ Start Redis Server
 
-Make sure Redis is running locally:
+Make sure Docker is installed, then start Redis using the provided configuration:
 
-```bash id="rd789"
-redis-server
+```bash
+docker-compose up -d
 ```
+
+This will start a Redis instance accessible at:
+
+```text
+redis://localhost:6379
+```
+
+> Ensure Docker is running before executing the command.
 
 ---
 
