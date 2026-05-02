@@ -142,7 +142,7 @@ This project was built to understand:
 
 ## 👨‍💻 Author
 
-Sahil (Saxhilll)
+Sahil Thakur
 
 ---
 
